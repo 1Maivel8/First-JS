@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Games</title>
+</head>
+<body>
+
+<div id="original" style="display:flex; gap:10px; width: 100%;">
+    <h2></h2>
+    <p>1-Puzzle</p>
+    <div id="box1" draggable="true" >
+    <img src="images/row-2-column-1.jpg" alt="" width="100" height="60">
+</div><!--box1-->
+    <div id="box2" draggable="true">
+        <img src="images/row-3-column-1.jpg" alt="" width="100" height="60">
+
+    </div><!---box2-->
+    <div id="box3" draggable="true">
+        <img src="images/row-4-column-1.jpg" alt="" width="100" height="60">
+
+    </div><!----box3-->
+    <div id="box4" draggable="true">
+        <img src="images/row-1-column-1 (2).jpg" alt="" width="100" height="60">
+</div><!----box4-->
+<div class="container" style="display: flex;">
+<div id="target1" style="width: 100px; height: 250px; outline:3px solid rgb(170, 119, 7); margin-top:20px;"></div>
+</div><!--container-->
+</div><!----original-->
+
+<!----------------------------------------------------------1-game----------------------------------------------------------->
+ 
+<div id="sound" style=" display: block;"><hr>
+        <p>2-Listen and match the picture with the sound</p>
+        <div id="image" draggable="true">
+                <img src="images/cat.jpg" alt="" width="80px; height:80px">
+        </div><!---image--> 
+        <div id="image2">
+      <img src="images/dog2.jpg" alt="" width="80px" height="80px">
+        </div><!----sound-->   
+</div><!----image2--> 
+
+<div class="image-sound">
+    <div id="container_box" style="width: 200px; height: 300px; outline: 3px solid rgb(210, 161, 15);">
+
+        <audio controls >
+  <source src="images/zapsplat_animals_cat_kitten_meow_005_30181.mp3" type="audio/mpeg">
+</audio>
+<audio controls >
+    <source src="images/dog.mp3" type="audio/mpeg">
+</audio>
+    </div><!----container_box-->
+</div><!----image-sound--> 
+<!-----------------------------------------------image-sonud--------------------------------------------------->
+
+<div id="world"><hr>
+    <p>3-Draw</p>
+    <div id="image3" draggable="true">
+        <img src="images/sky.jpg" alt="" width="200px" height="150px">
+    </div><!----image3-->
+    <div id="image4" draggable="true">
+        <img src="images/tree3.gif" alt="" width="150px" height="150px">
+    </div><!----image4-->
+</div><!----world-->
+
+<div class="image_nature">
+           <div id="nature" style="width: 200px; height: 300px; outline: 3px solid rgb(210, 161, 15);"></div>
+
+</div><!-----image_nature-->
+<!----------------------------------------------------nature---------------------------------------------------->
+
+<div id="cont_mix"><hr>
+    <p>4-Mix</p>
+    <div class="colors" draggable="true" >
+    <h5 id="red" draggable="true"></h5>
+    <h6 id="green" draggable="true"></h6>
+    <h3 id="brown" draggable="true"></h3>
+    <span id="plus" draggable="true">+</span>
+    <span id="equal" draggable="true">=</span>
+    </div><!---cont_mix-->
+</div><!---colors-->
+
+<div class="div_mix">
+      <div id="mix" style="width: 100px; height: 200px; outline: 3px solid rgb(210, 161, 15);"></div>
+      </div><!----div_mix-->
+
+<!-----------------------------------------------------mix------------------------------------------------------>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
